@@ -1,13 +1,14 @@
-# DPI Engine - Deep Packet Inspection System
+# PacketAnalyzer: Practical DPI Pipeline Guide
+Deep Packet Inspection (DPI)
 
 
-This document provides a practical guide to the project architecture, packet flow, and core implementation details.
+This document is a hands-on walkthrough of the project architecture, packet flow, and key implementation details.
 
 ---
 
-## Table of Contents
+## Guide Map
 
-1. [What is DPI?](#1-what-is-dpi)
+1. [DPI at a Glance](#1-dpi-at-a-glance)
 2. [Networking Background](#2-networking-background)
 3. [Project Overview](#3-project-overview)
 4. [File Structure](#4-file-structure)
@@ -21,7 +22,7 @@ This document provides a practical guide to the project architecture, packet flo
 
 ---
 
-## 1. What is DPI?
+## 1. DPI at a Glance
 
 **Deep Packet Inspection (DPI)** is a technology used to examine the contents of network packets as they pass through a checkpoint. Unlike simple firewalls that only look at packet headers (source/destination IP), DPI looks *inside* the packet payload.
 
