@@ -15,7 +15,7 @@ This guide will help you build and run the DPI Engine on Windows. Follow these s
 2. Run the installer
 
 3. When asked "What workloads to install", select:
-   - ✅ **Desktop development with C++**
+   -  **Desktop development with C++**
    
    ![Workload Selection](https://docs.microsoft.com/en-us/cpp/build/media/vscpp-concurrency-install-workload.png)
 
@@ -423,16 +423,4 @@ To test with real traffic:
    ```cmd
    dpi_engine.exe my_capture.pcap filtered.pcap
    ```
-
----
-
-## Need Help?
-
-If you're stuck:
-
-1. Make sure you followed EVERY step (don't skip any!)
-2. Check the Troubleshooting section above
-3. Try WSL (Option 3) - it's the most reliable
-4. Google the exact error message
-
-Good luck! 🚀
+   ---
